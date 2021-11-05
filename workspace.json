@@ -1,4 +1,8 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "nest-app": "apps/nest-app",
+    "nest-lib": "libs/nest-lib",
+    "util-math": "libs/util-math"
+  }
 }

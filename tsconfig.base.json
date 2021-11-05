@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@acme/nest-lib": ["libs/nest-lib/src/index.ts"],
+      "@acme/util-math": ["libs/util-math/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
